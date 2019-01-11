@@ -3,11 +3,11 @@ katz_deli = []
 
 def line(katz_deli)
   
-  display = "The line is currently "
+  display = ""
   
   if katz_deli.count == 0 
     
-    display += "empty."
+    display = "empty."
     
   else
     
