@@ -3,7 +3,7 @@ katz_deli = []
 
 def line(katz_deli)
   
-  display = "The line is currently:"
+  display = "The line is currently: "
   i = 1
   
   if katz_deli.count == 0 
