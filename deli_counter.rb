@@ -3,7 +3,8 @@ katz_deli = []
 
 def line(katz_deli)
   
-  display = ""
+  display = "The line is currently:"
+  i = 1
   
   if katz_deli.count == 0 
     
@@ -14,9 +15,13 @@ def line(katz_deli)
     
     katz_deli.each do |name|
       
-      
-      
+      line = "#{i}. #{name} "
+      display.concat(line)
+      i += 1
+    
     end
+    
+    puts display
     
   end 
  
