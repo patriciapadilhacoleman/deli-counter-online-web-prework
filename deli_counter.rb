@@ -5,8 +5,9 @@ def line(katz_deli)
   
   display = "The line is currently "
   
-  if katz_deli.count = 0 
-    display << "empty."
+  if katz_deli.count == 0 
+    
+    display += "empty."
     
   else
     
@@ -18,7 +19,9 @@ def line(katz_deli)
     end
     
   end 
-
+  
+  display
+  
 end
 
 def take_a_number(katz_deli, name)
