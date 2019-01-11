@@ -2,10 +2,14 @@
 katz_deli = []
 
 def line(katz_deli)
+  
+  display = "The line is currently "
+  
   if katz_deli.count = 0 
-    puts "The line is currently empty."
+    display << "empty."
     
   else
+    
     
     katz_deli.each do |name|
       
