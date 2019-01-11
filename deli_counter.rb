@@ -5,12 +5,12 @@ end
 
 def take_a_number(katz_deli, name)
   
-  puts "#{name}"
+  puts "Welcome, #{name}"
   
 end
 
-def take_a_number(katz_deli, name)
+def now_serving(katz_deli, name)
   
-  puts "#{name}"
+  if 
   
 end
