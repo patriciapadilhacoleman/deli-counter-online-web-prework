@@ -33,7 +33,7 @@ def take_a_number(katz_deli, name)
   katz_deli.push(name)
   number = katz_deli.count
   
-  puts "Welcome, #{name} You are number #{number} in line."
+  puts "Welcome, #{name}. You are number #{number} in line."
   
 end
 
