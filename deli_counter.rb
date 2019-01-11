@@ -39,7 +39,7 @@ end
 
 def now_serving(katz_deli)
   
-   name = unshift.katz_deli
+   name = katz_deli.unshift
    puts "Currently serving #{name}."
   
 end
